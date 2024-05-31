@@ -18,7 +18,7 @@
 
 ## About
 
-HyraxDotPlot allows you to quickly and easily generate interactive dot plots from a [nucmer alignment](https://github.com/mummer4/mummer), with the options of loading bed files that outline the location of genomic features (presence/absence bed files, e.g. for genes of interest or telomere sequence motifs) as highlighted regions on the dot plot; and as tracks which run parallel to the axes their respective fastas are loaded on (quantitative bed files, e.g. for read depth along the genome). You can explore the full potential of HyraxDotPlot by opening the example output file `demo.html` in you browser.
+HyraxDotPlot allows you to quickly and easily generate interactive dot plots from a [nucmer alignment](https://github.com/mummer4/mummer), with the options of loading bed files that outline the location of genomic features (presence/absence bed files, e.g. for genes of interest or telomere sequence motifs) as highlighted regions on the dot plot; and as tracks which run parallel to the axes their respective fastas are loaded on (quantitative bed files, e.g. for read depth along the genome). You can explore the full potential of HyraxDotPlot by opening the example output file `demo.html` in your browser.
 
 <br>
 
