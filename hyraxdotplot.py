@@ -95,7 +95,7 @@ def plot_interactive_bokeh(coords_file, threshold, x_cumulative_length_dict, y_c
     """Generate interactive html dotplot"""
     
     import holoviews as hv
-    from bokeh.plotting import figure, show
+    from bokeh.plotting import figure, show, save
     from bokeh.models import ColumnDataSource, Span, HoverTool, NumeralTickFormatter, TapTool, CustomJS, Button, BoxAnnotation, Div, Select
     from bokeh.layouts import column, row
     from matplotlib.colors import Normalize, LinearSegmentedColormap
@@ -450,7 +450,7 @@ def plot_interactive_bokeh(coords_file, threshold, x_cumulative_length_dict, y_c
     # Save and show final plot
     output_file(output_file_name)
     
-    #show(layout)
+    save(layout)
 
 
 def main():
