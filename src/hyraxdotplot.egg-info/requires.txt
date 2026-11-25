@@ -1,0 +1,7 @@
+bokeh
+matplotlib
+
+[dev]
+pytest
+pytest-cov
+ruff

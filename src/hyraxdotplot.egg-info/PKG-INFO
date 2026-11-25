@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: hyraxdotplot
+Version: 3.0.0.dev0
+Summary: Interactive genome alignment visualisation
+Requires-Python: >=3.10
+Requires-Dist: bokeh
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
